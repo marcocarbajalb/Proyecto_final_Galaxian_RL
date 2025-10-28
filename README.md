@@ -1,4 +1,4 @@
-# Proyecto_final_Galaxian_RL
+# Proyecto final (Galaxian)
 
 ### Programadores
 Marco Carbajal (23025)
