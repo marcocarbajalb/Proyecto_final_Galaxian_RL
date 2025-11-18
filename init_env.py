@@ -2,8 +2,8 @@
 Universidad del Valle de Guatemala | Aprendizaje por refuerzo - S21
 Marco Carbajal (23025) / car23025@uvg.edu.gt
 
-Inicialización de entornos de ALE.
-Este módulo asegura que los entornos de ALE estén registrados correctamente.
+Inicialización de entornos de ALE
+- Este módulo asegura que los entornos de ALE estén registrados correctamente.
 """
 
 import gymnasium as gym
