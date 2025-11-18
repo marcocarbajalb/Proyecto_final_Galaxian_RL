@@ -1,0 +1,7 @@
+{
+  "total_episodes": 2005,
+  "best_reward": 4970.0,
+  "final_avg_100": 1735.5,
+  "final_epsilon": 0.01,
+  "total_steps": 942081
+}

@@ -1,0 +1,18 @@
+{
+  "winner": "DQN",
+  "difference": 615.7,
+  "results": {
+    "DQN": {
+      "episodes": 2005.0,
+      "avg_total": 1014.0847880299252,
+      "avg_100": 1735.5,
+      "max": 4970.0
+    },
+    "A2C": {
+      "episodes": 2000.0,
+      "avg_total": 860.575,
+      "avg_100": 1119.8,
+      "max": 3480.0
+    }
+  }
+}
