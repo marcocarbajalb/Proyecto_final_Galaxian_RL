@@ -218,7 +218,7 @@ ARCHITECTURES = {
     },
     'deeper': {
         'class': DQN_Deeper,
-        'description': 'Mayor profundidad (4 capas convolucionales + 3 fully connected)',
+        'description': 'Mas profunda (4 capas convolucionales + 3 fully connected)',
     },
     'wider': {
         'class': DQN_Wider,
@@ -486,7 +486,7 @@ def compare_variants(all_results):
     
     plt.xlabel('Episodio')
     plt.ylabel(f'Recompensa (media móvil {window} eps)')
-    plt.title('Comparación de arquitecturas DQN')
+    plt.title('Comparación de Arquitecturas DQN')
     plt.legend()
     plt.grid(True, alpha=0.3)
     
