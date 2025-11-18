@@ -18,7 +18,7 @@ proyecto_galaxian/
 ├── train_dqn.py          # Entrenamiento DQN
 ├── train_a2c.py          # Entrenamiento A2C
 ├── analyze.py            # Análisis de rendimiento
-├── play_final.py         # Evaluación final
+├── play.py         # Evaluación final
 │
 ├── utils.py              # Utilidades compartidas
 ├── policy_wrapper.py     # Cargar modelos entrenados
@@ -104,11 +104,11 @@ python train_a2c.py
 ### Fase 3: Evaluación final (para la entrega)
 
 ```bash
-# Editar play_final.py:
+# Editar play.py:
 # - Configurar 'model_path' con el mejor modelo
 # - Configurar 'method' ('dqn' o 'a2c')
 
-python play_final.py
+python play.py
 ```
 
 Esto generará 3 videos en `grabaciones/` con el formato requerido.
@@ -274,6 +274,6 @@ python train_[metodo_elegido].py      # (o el método elegido)
 python analyze.py        # Ver progreso periódicamente
 
 # 6. EVALUACIÓN FINAL
-# Editar play_final.py: model_path='modelos/[metodo_elegido]_best.pth'
-python play_final.py     # Generar videos para entrega
+# Editar play.py: model_path='modelos/[metodo_elegido]_best.pth'
+python play.py     # Generar videos para entrega
 ```
