@@ -1,0 +1,20 @@
+# Proyecto final - GALAXIAN RL
+# Marco Carbajal (23025) / car23025@uvg.edu.gt
+
+# Entorno de juego (versiones compatibles actualizadas)
+numpy>=1.24.0
+gymnasium>=0.29.0
+gymnasium[other]
+shimmy>=2.0.0
+ale-py>=0.10.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Procesamiento de imágenes
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Visualización
+matplotlib>=3.7.0
