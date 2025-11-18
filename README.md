@@ -1,8 +1,7 @@
 # Proyecto final [Galaxian] 🚀
 
 ### Programador
-Marco Carbajal (23025)
-car23025@uvg.edu.gt
+Marco Carbajal (23025) - car23025@uvg.edu.gt
 
 > Universidad del Valle de Guatemala - Aprendizaje por refuerzo (Sección 21)
 
@@ -73,7 +72,7 @@ python train_a2c.py
 
 3. **Comparar ambos métodos**:
 ```bash
-python compare_methods.py
+python analyze.py        # Opción 6: Comparar métodos
 ```
 
 Este script mostrará cuál método funciona mejor y generará:
