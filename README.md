@@ -77,7 +77,7 @@ python analyze.py        # Opción 6: Comparar métodos
 
 Este script mostrará cuál método funciona mejor y generará:
 - `graficas/comparacion_metodos.png` - Comparación visual
-- `graficas/comparacion.json` - Estadísticas detalladas
+- `graficas/comparison.json` - Estadísticas detalladas
 
 ### Fase 2: Entrenamiento final
 
