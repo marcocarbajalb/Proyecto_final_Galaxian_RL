@@ -1,6 +1,6 @@
 # Proyecto final [Galaxian] 🚀
 
-**Desarrollado por:** Marco Carbajal / car23025@uvg.edu.gt
+**Desarrollado por:** Marco Carbajal (car23025@uvg.edu.gt)
 
 > Universidad del Valle de Guatemala - Aprendizaje por refuerzo (Sección 21)
 
@@ -11,10 +11,10 @@
 ```
 proyecto_galaxian/
 │
-├── setup.py                      # Configuración automática del entorno
-├── init_env.py                   # Inicialización de entornos ALE
-├── test_environment.py           # Prueba rápida del entorno
-├── requirements.txt              # Dependencias del proyecto
+├── setup.py                     # Configuración automática del entorno
+├── init_env.py                  # Inicialización de entornos ALE
+├── test_environment.py          # Prueba rápida del entorno
+├── requirements.txt             # Dependencias del proyecto
 │
 ├── train_dqn.py                 # Entrenamiento con Deep Q-Network
 ├── train_a2c.py                 # Entrenamiento con Advantage Actor-Critic
