@@ -23,7 +23,7 @@ HIPERPARAMETROS = {
     'env_name': 'ALE/Galaxian-v5',
     
     # Entrenamiento
-    'n_episodes': 7010,              # Total
+    'n_episodes': 7200,              # Total
     'max_steps': 10000,              # Pasos máximos por episodio
     'batch_size': 32,                # Tamaño del batch
     'buffer_size': 100000,           # Tamaño del replay buffer
@@ -45,8 +45,8 @@ HIPERPARAMETROS = {
     'img_size': (84, 84),            # Tamaño de imagen procesada
     
     # Guardado
-    'save_freq': 500,                # Guardar checkpoint cada N episodios
-    'video_freq': 250,               # Grabar video cada N episodios
+    'save_freq': 25,                # Guardar checkpoint cada N episodios
+    'video_freq': 50,               # Grabar video cada N episodios
     'model_dir': 'modelos',
     'graphics_dir': 'graficas',
     'video_dir': 'videos_entrenamiento',

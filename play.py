@@ -30,7 +30,7 @@ warnings.filterwarnings('ignore', category=UserWarning, module='gymnasium.wrappe
 
 CONFIG = {
     # Seleccionar mejor modelo
-    'model_path': 'modelos/dqn_final.pth', # Cambiar al mejor modelo
+    'model_path': 'modelos/dqn_best.pth', # Cambiar al mejor modelo
     'method': 'dqn',  # 'dqn' o 'a2c'
     
     # Parámetros de grabación

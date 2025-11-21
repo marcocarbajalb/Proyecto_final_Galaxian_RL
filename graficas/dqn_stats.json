@@ -1,7 +1,7 @@
 {
-  "total_episodes": 7018,
+  "total_episodes": 7212,
   "best_reward": 13620.0,
-  "final_avg_100": 4116.5,
+  "final_avg_100": 3735.7,
   "final_epsilon": 0.01,
-  "total_steps": 22297
+  "total_steps": 89929
 }
